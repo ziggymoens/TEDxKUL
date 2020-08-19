@@ -1,1 +1,1 @@
-# TEDxKULeuven
+# TEDxKUL
