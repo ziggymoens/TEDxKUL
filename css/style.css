@@ -59,6 +59,11 @@ body{
     border-radius: 100%;
 }
 
+.required:after{
+    content: " *";
+    color: red;
+}
+
 .btn:hover{
     background-color: rgba(255, 0, 0, 0.6);
     color: white;
