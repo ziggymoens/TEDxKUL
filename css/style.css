@@ -13,6 +13,7 @@ body{
 }
 .carousel-indicators .active{
     background-color: red;
+    opacity: 100%;
 
 }
 
@@ -21,7 +22,7 @@ body{
 }
 
 #AboutShort{
-    margin-left: 2.5em;
+    /* margin-left: 2.5em; */
 }
 
 #AboutShort hr{
