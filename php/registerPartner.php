@@ -1,3 +1,7 @@
+<!DOCTYPE html>
+    test
+</html>
+
 <?php
 
 if(isset($_POST['submit'])){
@@ -17,8 +21,33 @@ if(isset($_POST['submit'])){
     $info = "Email: ".$mailFrom.".\n Telefoonnummer: ".$phoneNumber."
     .\n Bedrijf: ".$companyName.", te vinden op ".$companyWebsite."\n\nBericht: .$message";
 
-    mail($mailTo, $subject, $txt, $info);
-    header("Location: index.html?mailsend");
+    $sent = mail($mailTo, $subject, $txt, $info);
 }
 
+if ($sent) {
+
+    ?><html>
+    <head>
+    <title>Thank You</title>
+    </head>
+    <body>
+    <h1>Thank You</h1>
+    <p>Thank you for your feedback.</p>
+    </body>
+    </html>
+    <?php
+    
+    } else {
+    
+    ?><html>
+    <head>
+    <title>Something went wrong</title>
+    </head>
+    <body>
+    <h1>Something went wrong</h1>
+    <p>We could not send your feedback. Please try again.</p>
+    </body>
+    </html>
+    <?php
+    }
 ?>
