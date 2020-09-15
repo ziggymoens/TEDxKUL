@@ -27,7 +27,7 @@
     <!--section navbar-->
     <nav class="navbar navbar-light bg-dark">
       <a class="navbar-brand" href="../index.html">
-        <img src="/img/TEDxKUL-logo.png" width="30%" alt="Logo TEDxKUL">
+        <img src="/img/TEDxKUL-logo.png" id="logoNavbar" alt="Logo TEDxKUL">
       </a>
       <button class="navbar-toggler collapsed position-relative" type="button"
         data-toggle="collapse" data-target="#collapsingNavbar">
@@ -36,14 +36,12 @@
         <span> </span>
       </button>
       <div class="collapse navbar-collapse" id="collapsingNavbar">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link text-white" href="../index.html">Home
-            <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link text-white" href="#">Any Ideas</a>
-          <a class="nav-item nav-link text-white" href="calendar.html">Events</a>
-          <a class="nav-item nav-link active text-white" href="team.html">Join
-            the team!</a>
-          <a class="nav-item nav-link text-white" href="#">Become a partner</a>
+        <div class="navbar-nav navbar-expand-lg">
+          <a class="nav-item nav-link text-white" href="../index.html">Home</a>
+          <a class="nav-item nav-link text-white" href="../html/ideas.html">Any Ideas</a>
+          <a class="nav-item nav-link text-white" href="../html/events.html">Events </a>
+          <a class="nav-item nav-link active text-white" href="../html/team.html">Join the team!<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link text-white" href="../html/partner.html">Become a partner</a>
         </div>
       </div>
     </nav>
@@ -201,8 +199,7 @@
       <div class="form-row">
         <div class="col">
           <label for="university">University</label>
-          <input type="text" class="form-control" placeholder="Enter your
-            university" id="university" required>
+          <input type="text" class="form-control" placeholder="Enter your university" id="university" required>
         </div>
         <div class="col">
           <label for="faculty">Faculty</label>
