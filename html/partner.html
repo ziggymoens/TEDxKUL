@@ -96,11 +96,11 @@
         <h3 class="h3">Let's partner up!</h3>
         <p>Fill in the form and we'll get in touch</p>
         <div class="container">
-            <form class="needs-validation" action="registerPartner.php" method="POST" novalidate>
+            <form class="needs-validation" action="/registerPartner.php" method="POST" novalidate>
                 <div class="form-group row">
                     <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="fname">First name</label>
                     <div class="col-lg-10 col-md-9 col-sm-8">
-                        <input type="text" class="form-control" placeholder="First name" id="fname" required>
+                        <input type="text" name="fname" class="form-control" placeholder="First name" id="fname" required>
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -112,7 +112,7 @@
                 <div class="form-group row">
                     <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="lanem">Last name</label>
                     <div class="col-lg-10 col-md-9 col-sm-8">
-                        <input type="text" class="form-control" placeholder="Last name" id="lname" required>
+                        <input type="text" name="lname" class="form-control" placeholder="Last name" id="lname" required>
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -125,7 +125,7 @@
                     <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="exampleInputEmail1">Email
                         address</label>
                     <div class="col-lg-10 col-md-9 col-sm-8">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        <input type="email" name="mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                             placeholder="Enter email" required>
                             <div class="valid-feedback">
                                 Looks good!
@@ -140,7 +140,7 @@
                 <div class="form-group row">
                     <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="telnum">Phonenumber</label>
                     <div class="col-lg-10 col-md-9 col-sm-8">
-                        <input type="tel" class="form-control" placeholder="Phonenumber" id="telnum" required>
+                        <input type="tel" name="telnum" class="form-control" placeholder="Phonenumber" id="telnum" required>
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -153,7 +153,7 @@
                 <div class="form-group row">
                     <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="cname">Company name</label>
                     <div class="col-lg-10 col-md-9 col-sm-8">
-                        <input type="text" class="required form-control" placeholder="Company name" id="cname" required>
+                        <input type="text" name="companyname" class="required form-control" placeholder="Company name" id="cname" required>
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -163,20 +163,20 @@
                     </div>
                 </div>
 
-                <div class="form-group row">
+                <!-- <div class="form-group row">
                     <label class="col-lg-2 col-md-3 col-sm-4 col-form-label" for="websiteCompany">Website
                         company</label>
                     <div class="col-lg-10 col-md-9 col-sm-8">
                         <input id="websiteCompany" class="form-control" type="text" name="websiteCompany"
                             placeholder="www.yourcompanyname.com">
                     </div>
-                </div>
+                </div> -->
 
                 <div class="form-group row">
                     <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required"
                         for="messagePartner">Message</label>
                     <div class="col-lg-10 col-md-9 col-sm-8">
-                        <textarea class="form-control" id="messagePartner" rows="3" required minlength="10"></textarea>
+                        <textarea name="message" class="form-control" id="messagePartner" rows="3" required minlength="10"></textarea>
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -192,7 +192,7 @@
               <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
             </div>
         </div> -->
-                <button class="btn btn-primary w-100" type="submit">Submit!</button>
+                <button class="btn btn-primary w-100" type="submit" name="submit">Submit!</button>
             </form>
         </div>
     </div>
