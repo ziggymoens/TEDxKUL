@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-    test
-</html>
-
 <?php
 
 if(isset($_POST['submit'])){
