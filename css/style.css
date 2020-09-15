@@ -47,20 +47,20 @@ body {
 
 #homecarousel-1 {
     height: 50vh;
-    background-image: url("../img/leuven_10416_xl.jpg");
+    background-image: url("../img/powerOfUnTruth.png");
     background-size: cover;
 
 }
 
 #homecarousel-2 {
     height: 50vh;
-    background-image: url("../img/leuven2.jpeg");
+    background-image: url("../img/tedxkulteam.jpg");
     background-size: cover;
 }
 
 #homecarousel-3 {
     height: 50vh;
-    background-image: url("../img/leuven3.jpg");
+    background-image: url("../img/x-traTime.jpg");
     background-size: cover;
 }
 
