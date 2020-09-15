@@ -21,7 +21,7 @@
 <body>
   <nav class="navbar navbar-light bg-dark">
     <a class="navbar-brand" href="#">
-      <img src="/img/TEDxKUL-logo.png" width="30%"  alt="Logo TEDxKUL">
+      <img src="/img/TEDxKUL-logo.png" id="logoNavbar"  alt="Logo TEDxKUL">
     </a>
     <button class="navbar-toggler collapsed position-relative" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
       <span> </span>
@@ -31,10 +31,10 @@
     <div class="collapse navbar-collapse" id="collapsingNavbar">
       <div class="navbar-nav navbar-expand-lg">
         <a class="nav-item nav-link active text-white" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link text-white" href="#">Any Ideas</a>
+        <a class="nav-item nav-link text-white" href="html/ideas.html">Any Ideas</a>
         <a class="nav-item nav-link text-white" href="html/calendar.html">What's next</a>
         <a class="nav-item nav-link text-white" href="html/team.html">Join the team!</a>
-        <a class="nav-item nav-link text-white" href="#">Become a partner</a>
+        <a class="nav-item nav-link text-white" href="html/partner.html">Become a partner</a>
       </div>
     </div>
   </nav>
@@ -49,26 +49,26 @@
       <div class="carousel-item active">
         <div class="jumbotron jumbotron-fluid" id="homecarousel-1">
           <div class="container">
-            <h1 class="display-4 text-white text-danger text-center"></h1>
-            <p class="lead text-white text-dark"></p>
-            <a class="btn btn-light btn-lg pull-right" href="html/xtraTime.html" role="button">&#8592;</a>
+            <h1 class="display-4 text-white text-danger text-center">X-tra<br>Time</h1>
+            <p class="lead text-white text-dark">by TEDxKUL</p>
+            <a class="btn btn-light btn-lg pull-right" id="btnCarousel" href="html/xtraTime.html" role="button">&#8592;</a>
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <div class="jumbotron jumbotron-fluid" id="homecarousel-2">
           <div class="container">
-            <h1 class="display-4 text-white text-center text-danger"></h1>
-            <a class="btn btn-light btn-lg pull-right js-scroll-trigger" href="#AboutShort" role="button">&#8595;</a>
+            <h1 class="display-4 text-white text-center text-danger">We Are TEDx<br>We Are KUL</h1>
+            <a class="btn btn-light btn-lg pull-right js-scroll-trigger" id="btnCarousel" href="#AboutShort" role="button">&#8595;</a>
           </div>
         </div>
       </div>
       <div class="carousel-item">
         <div class="jumbotron jumbotron-fluid" id="homecarousel-3">
           <div class="container">
-            <h1 class="display-4 text-white text-center"></h1>
-            <p class="lead text-white"></p>
-            <a class="btn btn-light btn-lg pull-right" href="html/powerOfUntruth.html" role="button">&#8594;</a>
+            <h1 class="display-4 text-white text-center">2019</h1>
+            <p class="lead text-white">The Power of<br>Un(Truth)</p>
+            <a class="btn btn-light btn-lg pull-right" id="btnCarousel" href="html/powerOfUntruth.html" role="button">&#8594;</a>
           </div>
         </div>
       </div>
@@ -126,7 +126,7 @@
           </p>
         </div>
       </div>
-      <div class="row align-items-center">
+      <div class="row">
         <div class="col">
           <h2>TEDx</h2>
           <hr class="pull-left"> <br>
@@ -145,6 +145,7 @@
               style="color: black; text-decoration: underline;"
               href="https://www.ted.com/about/programs-initiatives/tedx-program">TEDx Program</a>
           </p>
+        </div>
         </div>
     </div>
   </div>

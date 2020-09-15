@@ -13,7 +13,12 @@ body{
 }
 .carousel-indicators .active{
     background-color: red;
+    opacity: 100%;
 
+}
+
+#logoNavbar{
+    max-width: 35%;
 }
 
 #breakerCarouselInfo{
@@ -21,13 +26,13 @@ body{
 }
 
 #AboutShort{
-    margin-left: 2.5em;
+    /* margin-left: 2.5em; */
 }
 
 #AboutShort hr{
     background-color: red; 
     width: 5em;
-    height: 0.5em;
+    height: 5px;
     margin-top: -6px;
 }
 
@@ -50,8 +55,13 @@ body{
     background-size: cover;
 }
 
-.btn{
+#btnCarousel{
     border-radius: 100%;
+}
+
+.required:after{
+    content: " *";
+    color: red;
 }
 
 .btn:hover{
