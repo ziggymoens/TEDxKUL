@@ -1,66 +1,305 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <title>TEDxKUL</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <title>TEDxKUL</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://kit.fontawesome.com/fdf6832ad4.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/fdf6832ad4.js"
+      crossorigin="anonymous"></script>
 
-  <!-- Custom styles for this template -->
-  <link rel="stylesheet" href="../css/style.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="../css/style.css">
 
-</head>
+  </head>
 
-<body>
+  <body>
+    <!--section navbar-->
     <nav class="navbar navbar-light bg-dark">
-        <a class="navbar-brand" href="../index.html">
-          <img src="/img/TEDxKUL-logo.png" width="30%"  alt="Logo TEDxKUL">
-        </a>
-        <button class="navbar-toggler collapsed position-relative" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-          <span> </span>
-          <span> </span>
-          <span> </span>
+      <a class="navbar-brand" href="../index.html">
+        <img src="/img/TEDxKUL-logo.png" width="30%" alt="Logo TEDxKUL">
+      </a>
+      <button class="navbar-toggler collapsed position-relative" type="button"
+        data-toggle="collapse" data-target="#collapsingNavbar">
+        <span> </span>
+        <span> </span>
+        <span> </span>
       </button>
-        <div class="collapse navbar-collapse" id="collapsingNavbar">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link text-white" href="../index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link text-white" href="#">Any Ideas</a>
-            <a class="nav-item nav-link text-white" href="calendar.html">What's next</a>
-            <a class="nav-item nav-link active text-white" href="team.html">Join the team!</a>
-            <a class="nav-item nav-link text-white" href="#">Become a partner</a>
+      <div class="collapse navbar-collapse" id="collapsingNavbar">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link text-white" href="../index.html">Home
+            <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link text-white" href="#">Any Ideas</a>
+          <a class="nav-item nav-link text-white" href="calendar.html">Events</a>
+          <a class="nav-item nav-link active text-white" href="team.html">Join
+            the team!</a>
+          <a class="nav-item nav-link text-white" href="#">Become a partner</a>
+        </div>
+      </div>
+    </nav>
+    <!--end section navbar-->
+
+    <div class="row" id="bannerTeam">
+      <div class="col">
+        <div>
+          <img src="../img/TEDxKUL team.jpg" class="img-fluid rounded"
+            alt="Team photo">
+        </div>
+      </div>
+      <div class="col text-center align-self-center">
+        <div class="jumbotron fluid-jumbotron">
+          <h1 class="display-4">Team</h1>
+          <p class="lead">Take a look at the team behind TEDxKULeuven or even
+            join us!</p>
+          <hr class="my-4">
+          <button class="btn btn-secondary">Become part of the team!</button>
+        </div>
+        <br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <a href="#" class="align-self-center"><i class="fa fa-angle-down"
+            id="arrowToTeam"></i></a>
+      </div>
+    </div>
+
+
+    <!--section team-->
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below
+            as a natural lead-in to additional content. This content is a little
+            bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural
+            lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below
+            as a natural lead-in to additional content. This card has even
+            longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below
+            as a natural lead-in to additional content. This card has even
+            longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below
+            as a natural lead-in to additional content. This card has even
+            longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below
+            as a natural lead-in to additional content. This card has even
+            longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below
+            as a natural lead-in to additional content. This card has even
+            longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below
+            as a natural lead-in to additional content. This card has even
+            longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <!--end of section team-->
+
+    <!--section sign up for team-->
+    <h4>Apply now!</h4>
+    <form action="applyForTeam.php" method="POST">
+
+      <div class="form-row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name"
+            required>
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name"
+            required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label for="emailInput">E-mail address</label>
+        <input type="email" class="form-control" placeholder="Enter your email"
+          id="emailInput" required>
+      </div>
+
+      <div class="form-row">
+        <div class="col">
+          <label for="university">University</label>
+          <input type="text" class="form-control" placeholder="Enter your
+            university" id="university" required>
+        </div>
+        <div class="col">
+          <label for="faculty">Faculty</label>
+          <input type="text" class="form-control" placeholder="Faculty / other"
+            id="faculty" required>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <label for="studyPhase">Study phase</label>
+            <select id="studyPhase" class="form-control">
+              <option value="1e bachelor">1st Bachelor</option>
+              <option value="2e bachelor">2nd Bachelor</option>
+              <option value="3e bachelor">3rd Bachelor</option>
+              <option value="1e master">1st Master</option>
+              <option value="2e master">2nd Master</option>
+              <option value="doctoraat">Doctorate</option>
+            </select>
           </div>
         </div>
-      </nav>
+      </div>
 
-      
+      <div class="form-row">
+        <div class="col">
+          <legend class="col-form-label">Have you ever attended a TEDx event?</legend>
+          <div class="form-check-inline">
+            <input type="radio" class="form-check-input" name="attendee"
+              id="attendeeYes">
+            <label class="form-check-label" for="attendeeYes">Yes</label>
+            <input type="radio" name="attendee" id="attendeeNo">
+            <label class="form-check-label" for="attendeeNo">No</label>
+          </div>
+        </div>
+        <div class="col">
+          <label for="favTalks">Favourite TEDx talk(s)?</label>
+          <input type="text" class="form-control" id="favTalks"
+            placeholder="Favourite TEDx talks">
+        </div>
+      </div>
 
-      <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+      <div class="form-row">
+        <select class="selectpicker" multiple data-max-options="2">
+          <option selected>Choose three functions</option>
+          <option value="1">1</option>
+          <option value="1">2</option>
+          <option value="1">3</option>
+          <option value="1">4</option>
+          <option value="1">5</option>
+          <option value="1">6</option>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        </select>
+      </div>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+      <div class="form-row">
+        <div class="col">
+          <div class="form-group">
+            <label for="motivational">Why TEDxKULeuven? (upload file of max. 450
+              words)</label>
+            <input type="file" class="form-control-file" id="motivational">
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <label for="resume">Upload your CV / portfolio</label>
+            <input type="file" class="form-control-file" id="resume">
+          </div>
+        </div>
+      </div>
 
-  <!-- Custom script -->
-  <script src="js/tedxkul.min.js"></script>
-</body>
+
+      <button class="btn btn-primary" type="submit">Submit!</button>
+
+    </form>
+    <!--end of section sign up for team-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom script -->
+    <script src="js/tedxkul.min.js"></script>
+  </body>
 </html>
