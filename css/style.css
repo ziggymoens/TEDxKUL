@@ -27,6 +27,25 @@ body {
     height: 120px;
 }
 
+.socialsLogo{
+    margin-top: 3em;
+}
+
+#twitter{
+    color: #1DA1F2;
+}
+
+#youtube{
+    color: #FF0000;
+}
+
+#facebook{
+    color: #4267B2;
+}
+
+#linkedin{
+    color:#2867B2;
+}
 
 
 #arrowToTeam {
