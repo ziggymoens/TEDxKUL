@@ -1,6 +1,5 @@
 <?php
-ini_set('display_errors',1);  
-error_reporting(E_ALL);
+
 
 if(isset($_POST['submit'])){
     $fname = $_POST['fname'];
@@ -11,7 +10,7 @@ if(isset($_POST['submit'])){
 
     $message = $_POST['message'];;
 
-    $mailTo = "info@kilianhoefman.be";
+    $mailTo = "applications@tedxkuleuven.com";
     $subject = "From: ".$mailFrom." regarding Partnership";
     $headers = "Je hebt een email ontvangen van ".$fname." ".$lname." in verband met een partnership.\n\n";
     $txt = "Email: ".$mailFrom.".\n Telefoonnummer: ".$phoneNumber."
