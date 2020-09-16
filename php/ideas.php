@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
 
     $message = $_POST['message'];;
 
-    $mailTo = "info@kilianhoefman.be";
+    $mailTo = "applications@tedxkuleuven.com";
     $subject = "From: ".$mailFrom." regarding application speaker/podcast guest";
     $headers = "Je hebt een email ontvangen van ".$fname." ".$lname." in verband met een applicatie als spreker of podcast gast.\n\n";
     $txt = "Email: ".$mailFrom."\nTelefoonnummer: ".$phoneNumber."
