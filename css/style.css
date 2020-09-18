@@ -47,6 +47,19 @@ body {
     color:#2867B2;
 }
 
+#instagram {
+    opacity: 75%;
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.containerLogos .fa{
+    margin-right: 1em;
+}
+
 .img-logo{
     height: 50px;    
     margin: 1.5em;
@@ -116,6 +129,10 @@ body {
 
 #btnCarousel {
     border-radius: 100%;
+}
+
+.footerTEDx{
+    background-color: whitesmoke
 }
 
 .required:after {
