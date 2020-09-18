@@ -47,15 +47,46 @@ body {
     color:#2867B2;
 }
 
+.img-logo{
+    height: 50px;    
+    margin: 1.5em;
+}
+
+.logoContainer{
+    padding-top: 2em;
+}
+
+.bottom-logoContainer{
+    padding-top: 3em;
+}
+
+#cardsPodcast .card-img-top{
+    display: flex;
+    align-self: center;
+    /* border-radius: 50%; */
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#cardsPodcast img{
+    filter: grayscale(100);
+    display: block;
+    max-height: 175px;
+    max-width: 175px;
+    width: auto;
+    height: auto;
+}
+
+#cardsPodcast .card{
+    background: none;
+}
+
 
 #arrowToTeam {
     color: gray;
     font-size: 50px;
 }
 
-#AboutShort {
-    /* margin-left: 2.5em; */
-}
 
 #AboutShort hr {
     background-color: red;
