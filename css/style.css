@@ -146,9 +146,6 @@ body {
     color: white;
 }
 
-.startPage{
-    padding-top: 45Dpx;;
-}
 
 .navbar-toggler span {
     display: block;
@@ -202,8 +199,9 @@ body {
     opacity: 0.9;
 }
 
-
-
+#embed{
+    padding: 3em;
+}
 
 /*----------multi-level-accordian-menu------------*/
 .navbar-logo{
@@ -341,5 +339,10 @@ body {
 	.hori-selector .right:before{
 		bottom: -25px;
 		left: -25px;
-	}
+    }
+    
+    #embedded{
+        width: 800px;
+        height: 400px;
+    }
 }

@@ -14,44 +14,86 @@
   <script src="https://kit.fontawesome.com/fdf6832ad4.js" crossorigin="anonymous"></script>
 
   <!-- Custom styles for this template -->
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../../css/style.css">
 
 </head>
 
-<body>
-    <nav class="navbar navbar-light bg-dark">
-        <a class="navbar-brand" href="../../index.html">
-          <img src="/img/TEDxKUL-logo.png" width="30%"  alt="Logo TEDxKUL" style="color:invert()"
-        </a>
-        <button class="navbar-toggler collapsed position-relative" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-          <span> </span>
-          <span> </span>
-          <span> </span>
-      </button>
-        <div class="collapse navbar-collapse" id="collapsingNavbar">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link text-white" href="../index.html">Home</a>
-            <a class="nav-item nav-link text-white" href="../html/ideas.html">Any Ideas?</a>
-            <a class="nav-item nav-link text-white" href="../events.html">Events</a>
-            <a class="nav-item nav-link text-white" href="../team.html">Join the team!</a>
-            <a class="nav-item nav-link text-white" href="../html/partner.html">Become a partner</a>
-            <a class="nav-item nav-link text-white" href="../html/contact.html">Contact us</a>
+<nav class="navbar fixed-top navbar-expand-lg navbar-mainbg">
+  <div class="container-fluid">
+    <a class="navbar-logo" href="../../index.html">
+      <img class="img-fluid" src="../../img/TEDxKUL-logo.png" alt="logo" style="max-height: 5vh;">
+    </a>
+    <button class="navbar-toggler collapsed position-relative" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span> </span>
+      <span> </span>
+      <span> </span>
+    </button>
+    <div class="container-fluid pr-0">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <div class="hori-selector">
+            <div class="left"></div>
+            <div class="right"></div>
           </div>
-        </div>
-      </nav>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="../../index.html"><i class="fas fa-home"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="../../html/ideas.html"><i class="far fa-lightbulb"></i>Any ideas</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-center" href="../../html/events.html"><i class="far fa-calendar-alt"></i>Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="../../html/team.html"><i class="fas fa-user-friends"></i>Join the
+              team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="../../html/partner.html"><i class="fas fa-briefcase"></i>Become a
+              partner</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="../../html/contact.html"><i class="fas fa-phone"></i>Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
 
-      powerofuntruth
+<body class="text-center">
+
+  <h1 class="display-4 text-center pt-2">The Power of (un)truth</h1>
+  <p class="lead text-center pl-5 pr-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem
+    voluptates tempora ex vitae tenetur unde
+    repudiandae, quaerat vero, similique, adipisci nesciunt alias? Tempora enim porro numquam necessitatibus sed quia
+    natus sit minus deserunt illo blanditiis labore iste assumenda dicta eaque, optio at saepe neque. Ut eos maxime in
+    minima.</p>
+  <h2 class="display-5 text-center">Check out the videos of the first TEDxKULeuven talk below</h2>
+
+  <div class="embed-responsive embed-responsive-1by1" id="embed">
+    <iframe class="embed-responsive-item z-depth-4"
+      src="https://www.youtube.com/embed/videoseries?list=PLsRNoUx8w3rNod1WaPWRUbKKqYPoTPSrr"></iframe>
+  </div>
+
+
+
+
+
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
@@ -62,9 +104,58 @@
 
   <!-- Custom script -->
   <script src="js/tedxkul.min.js"></script>
+  <script id="scriptNavbar">
+    function test() {
+      var tabsNewAnim = $('#navbarSupportedContent');
+      var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
+      var activeItemNewAnim = tabsNewAnim.find('.active');
+      var activeWidthNewAnimHeight = activeItemNewAnim.innerHeight();
+      var activeWidthNewAnimWidth = activeItemNewAnim.innerWidth();
+      var itemPosNewAnimTop = activeItemNewAnim.position();
+      var itemPosNewAnimLeft = activeItemNewAnim.position();
+      $(".hori-selector").css({
+        "top": itemPosNewAnimTop.top + "px",
+        "left": itemPosNewAnimLeft.left + "px",
+        "height": activeWidthNewAnimHeight + "px",
+        "width": activeWidthNewAnimWidth + "px"
+      });
+
+      $("#navbarSupportedContent").on("click", "li", function (e) {
+        $('#navbarSupportedContent ul li').removeClass("active");
+        $(this).addClass('active');
+        var activeWidthNewAnimHeight = $(this).innerHeight();
+        var activeWidthNewAnimWidth = $(this).innerWidth();
+        var itemPosNewAnimTop = $(this).position();
+        var itemPosNewAnimLeft = $(this).position();
+        $(".hori-selector").css({
+          "top": itemPosNewAnimTop.top + "px",
+          "left": itemPosNewAnimLeft.left + "px",
+          "height": activeWidthNewAnimHeight + "px",
+          "width": activeWidthNewAnimWidth + "px"
+        });
+
+      });
+    }
+    $(document).ready(function () {
+      setTimeout(function () {
+        test();
+      });
+    });
+    $(window).on('resize', function () {
+      setTimeout(function () {
+        test();
+      }, 500);
+    });
+    $(".navbar-toggler").click(function () {
+      setTimeout(function () {
+        test();
+      });
+    });
+  </script>
 </body>
 
 <footer>
-  
+
 </footer>
+
 </html>
