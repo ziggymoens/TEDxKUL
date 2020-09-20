@@ -7,7 +7,7 @@ if(isset($_POST['submit'])){
     $lname = $_POST['lname'];
     $mailFrom = $_POST['mail'];
     $subject = $_POST['subject'];
-    $message = $_POST['message'];;
+    $message = $_POST['message'];
 
     $mailTo = "info@tedxkuleuven.com";
     $headers = "Je hebt een email ontvangen van ".$fname." ".$lname." met een vraag.\n\n";
