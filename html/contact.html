@@ -22,30 +22,52 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-light bg-dark">
-    <a class="navbar-brand" href="../index.html">
-      <img src="/img/TEDxKUL-logo.png" width="30%" alt="Logo TEDxKUL">
-    </a>
-    <button class="navbar-toggler collapsed position-relative" type="button" data-toggle="collapse"
-      data-target="#collapsingNavbar">
-      <span> </span>
-      <span> </span>
-      <span> </span>
-    </button>
-    <div class="collapse navbar-collapse" id="collapsingNavbar">
-      <div class="navbar-nav navbar-expand-lg">
-        <a class="nav-item nav-link text-white" href="../index.html">Home</a>
-        <a class="nav-item nav-link text-white" href="../html/ideas.html">Any Ideas?</a>
-        <a class="nav-item nav-link text-white" href="events.html">Events</a>
-        <a class="nav-item nav-link text-white" href="team.html">Join the team!</a>
-        <a class="nav-item nav-link text-white" href="../html/partner.html">Become a partner</a>
-        <a class="nav-item nav-link text-white active" href="../html/contact.html">Contact us <span
-            class="sr-only">(current)</span></a>
-      </div>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-mainbg">
+    <div class="container-fluid">
+        <a class="navbar-logo" href="../index.html">
+            <img class="img-fluid" src="../img/TEDxKUL-logo.png" alt="logo" style="max-height: 5vh;">
+        </a>
+        <button class="navbar-toggler collapsed position-relative" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+        </button>
+        <div class="container-fluid pr-0">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <div class="hori-selector">
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="../index.html"><i class="fas fa-home"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="ideas.html"><i class="far fa-lightbulb"></i>Any ideas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="events.html"><i class="far fa-calendar-alt"></i>Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="team.html"><i class="fas fa-user-friends"></i>Join the
+                            team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="partner.html"><i class="fas fa-briefcase"></i>Become a
+                            partner</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-center" href="contact.html"><i class="fas fa-phone"></i>Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
-  </nav>
+</nav>
 
-  <div class="row align-items-center">
+
+  <div class="row align-items-center startPage">
     <div class="col">
       <img class="img-fluid p-3" src="../img/TEDxstage.jpg" alt="TEDxStage">
     </div>
@@ -210,6 +232,51 @@
   <!-- Custom script -->
   <script src="../js/tedxkul.js"></script>
   <script src="../js/tedxkul.min.js"></script>
+
+  <script id="scriptNavbar">
+
+    function test() {
+        var tabsNewAnim = $('#navbarSupportedContent');
+        var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
+        var activeItemNewAnim = tabsNewAnim.find('.active');
+        var activeWidthNewAnimHeight = activeItemNewAnim.innerHeight();
+        var activeWidthNewAnimWidth = activeItemNewAnim.innerWidth();
+        var itemPosNewAnimTop = activeItemNewAnim.position();
+        var itemPosNewAnimLeft = activeItemNewAnim.position();
+        $(".hori-selector").css({
+            "top": itemPosNewAnimTop.top + "px",
+            "left": itemPosNewAnimLeft.left + "px",
+            "height": activeWidthNewAnimHeight + "px",
+            "width": activeWidthNewAnimWidth + "px"
+        });
+
+        $("#navbarSupportedContent").on("click", "li", function (e) {
+            $('#navbarSupportedContent ul li').removeClass("active");
+            $(this).addClass('active');
+            var activeWidthNewAnimHeight = $(this).innerHeight();
+            var activeWidthNewAnimWidth = $(this).innerWidth();
+            var itemPosNewAnimTop = $(this).position();
+            var itemPosNewAnimLeft = $(this).position();
+            $(".hori-selector").css({
+                "top": itemPosNewAnimTop.top + "px",
+                "left": itemPosNewAnimLeft.left + "px",
+                "height": activeWidthNewAnimHeight + "px",
+                "width": activeWidthNewAnimWidth + "px"
+            });
+
+        });
+    }
+    $(document).ready(function () {
+        setTimeout(function () { test(); });
+    });
+    $(window).on('resize', function () {
+        setTimeout(function () { test(); }, 500);
+    });
+    $(".navbar-toggler").click(function () {
+        setTimeout(function () { test(); });
+    });
+
+</script>
 </body>
 
 </html>
