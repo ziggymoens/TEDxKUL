@@ -311,6 +311,16 @@ body {
 }
 */
 
+.nav-pills>li>a.active{
+  background-color: tomato!important;
+  color: white!important;
+}
+
+.nav-pills>li>a{
+    color: gray;
+}
+
+
 @media (max-width: 991px){
 	#navbarSupportedContent ul li a{
 		padding: 12px 30px;
