@@ -104,9 +104,9 @@
     <br>
     <div class="row">
       <!-- Nav tabs -->
-      <div class="col-4">
+      <div class="col-3">
 
-        <ul class="nav nav-pills nav-fill red" role="tablist" aria-orientation="vertical">
+        <ul class="nav flex-column nav-pills nav-fill " role="tablist" aria-orientation="vertical">
           <li class="nav-item">
             <a class="nav-link active" href="#curator">Curator & Licensee</a></li>
           <li class="nav-item">
@@ -129,7 +129,7 @@
       </div>
 
       <!-- Tab panes -->
-      <div class="col-8">
+      <div class="col-9">
         <div class="tab-content mb-5">
           <div id="curator" class="container tab-pane show active"><br>
             <h3 class="mb-4">CURATOR & LICENSEE</h3>
@@ -140,11 +140,33 @@
               <div class="col-9">
                 <h5>Julius Schelstraete <br><small class="text-muted">Student industrial- & organizational
                     psychology</small></h5>
-                <p>I’m a positive thinker, always trying to make the best of a bad situation. I love thinking and
-                  talking about complex and deep topics and I’m convinced that our ideas become truly great through
-                  others. Start a conversation with me about psychology or philosophy over some Belgian beers and I’m
-                  hooked!
-                </p>
+                    <button type="button" class="btn btn-light" data-toggle="modal" data-target="#juliusS">More about me</button>
+              </div>
+              
+            </div>
+          </div>
+          <div class="modal fade" id="juliusS" tabindex="-1" role="dialog" aria-labelledby="juliusSTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="juliusSLongTitle">Julius Schelstraete <br><small class="text-muted">Student industrial- & organizational
+                    psychology</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-man.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  I’m a positive thinker, always trying to make the best of a bad situation. I love thinking and talking about complex and deep topics and I’m convinced that our ideas become truly great through others. Start a conversation with me about psychology or philosophy over some Belgian beers and I’m hooked!
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:julius.schelstraete@tedxkuleuven.com">Email me!</a>
+
+                </div>
               </div>
             </div>
           </div>
@@ -155,11 +177,34 @@
                 <img src="../img/business-man.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Miklas Decock <br><small class="text-muted">Student Economics</small></h5>
-                <p>Last year Belgian undergraduate, always enjoyed the challenge of organizing all kinds of events. I'm
+                <h5>Miklas Decock<br><small class="text-muted">Student Economics</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#MiklasD">More about me</button>
+              </div>
+              
+            </div>
+          </div>
+          <div class="modal fade" id="MiklasD" tabindex="-1" role="dialog" aria-labelledby="MiklasDTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="MiklasDLongTitle">Miklas Decock<br><small class="text-muted">Student Economics</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-man.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Last year Belgian undergraduate, always enjoyed the challenge of organizing all kinds of events. I'm
                   also intrigued by international economics, philosophy and politics. My goal with TEDx is to get people
                   feel inspired and amazed.
-                </p>
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:miklas.decock@tedxkuleuven.com">Email me!</a>
+                </div>
               </div>
             </div>
           </div>
@@ -170,9 +215,8 @@
                 <img src="../img/business-woman.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Florence Seghers <small class="text-muted pull-right">SPEAKER DIRECTOR</small></h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Florence Seghers <small class="text-muted pull-right">SPEAKER DIRECTOR</small><br><small class="text-muted">Studente</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#FlorenceS">More about me</button>
               </div>
             </div>
             <div class="row mt-2">
@@ -180,11 +224,58 @@
                 <img src="../img/business-woman.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Angelin Tresy <small class="text-muted pull-right">SPEAKER COACH</small></h5>
-                <p>Get to know more about me soon!</p>
+                <h5>Angelin Tresy <small class="text-muted pull-right">SPEAKER COACH</small><br><small class="text-muted">Studente</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#AngelinT">More about me</button>
               </div>
             </div>
           </div>
+          <div class="modal fade" id="FlorenceS" tabindex="-1" role="dialog" aria-labelledby="FlorenceSTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="FlorenceSLongTitle">Florence Seghers <br><small class="text-muted">Studente</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-woman.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:florence.seghers@tedxkuleuven.com">Email me!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="AngelinT" tabindex="-1" role="dialog" aria-labelledby="AngelinTTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="AngelinTLongTitle">Angelin Tresy <br><small class="text-muted">Studente</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-woman.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:angelin.tresy@tedxkuleuven.com">Email me!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div id="creative" class="container tab-pane fade"><br>
             <h3 class="mb-4">CREATIVE TEAM</h3>
             <!-- <h4 class="text-muted">Creative Director</h4> -->
@@ -194,9 +285,8 @@
                 <img src="../img/business-woman.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Anéline Plateau <small class="text-muted pull-right">CREATIVE DIRECTOR</small></h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Anéline Plateau <small class="text-muted pull-right">CREATIVE DIRECTOR</small><br><small class="text-muted">Studente</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#AnelineP">More about me</button>
               </div>
             </div>
             <hr>
@@ -206,9 +296,8 @@
                 <img src="../img/business-woman.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Eline Swennen <small class="text-muted pull-right">GRAPHIC DESIGNER</small> </h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Eline Swennen <small class="text-muted pull-right">GRAPHIC DESIGNER</small><br><small class="text-muted">Studente</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#ElineS">More about me</button>
               </div>
             </div>
             <div class="row mt-2">
@@ -216,9 +305,8 @@
                 <img src="../img/business-woman.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Aleksandra Flammia<small class="text-muted pull-right">GRAPHIC DESIGNER</small> </h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Aleksandra Flammia<small class="text-muted pull-right">GRAPHIC DESIGNER</small><br><small class="text-muted">Studente</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#AleksandraF">More about me</button>
               </div>
             </div>
             <hr>
@@ -228,9 +316,8 @@
                 <img src="../img/business-man.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Kilian Hoefman <small class="text-muted pull-right">WEB DEVELOPER</small></h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Kilian Hoefman <small class="text-muted pull-right">WEB DEVELOPER</small><br><small class="text-muted">Student</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#KilianH">More about me</button>
               </div>
             </div>
             <div class="row mt-2">
@@ -238,12 +325,131 @@
                 <img src="../img/business-man.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Ziggy Moens <small class="text-muted pull-right">WEB DEVELOPER</small></h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Ziggy Moens <small class="text-muted pull-right">WEB DEVELOPER</small><br><small class="text-muted">Student</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#ZiggyM">More about me</button>
               </div>
             </div>
           </div>
+          
+          <div class="modal fade" id="AnelineP" tabindex="-1" role="dialog" aria-labelledby="AnelinePTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="AnelinePLongTitle">Anéline Plateau <br><small class="text-muted">Studente</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-woman.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:aneline.plateau@tedxkuleuven.com">Email me!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="ElineS" tabindex="-1" role="dialog" aria-labelledby="ElineSTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ElineSLongTitle">Eline Swennen <br><small class="text-muted">Studente</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-woman.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:eline.swennen@tedxkuleuven.com">Email me!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="AleksandraF" tabindex="-1" role="dialog" aria-labelledby="AleksandraFTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="AleksandraFLongTitle">Aleksandra Flammia<br><small class="text-muted">Studente</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-woman.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:aleksandra.flammia@tedxkuleuven.com">Email me!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="KilianH" tabindex="-1" role="dialog" aria-labelledby="KilianHTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="KilianHLongTitle">Kilian Hoefman <br><small class="text-muted">Student</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-man.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:kilian.hoefman@tedxkuleuven.com">Email me!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="ZiggyM" tabindex="-1" role="dialog" aria-labelledby="ZiggyMTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ZiggyMLongTitle">Ziggy Moens <br><small class="text-muted">Student</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-man.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:ziggy.moens@tedxkuleuven.com">Email me!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
           <div id="social" class="container tab-pane fade"><br>
             <h3 class="mb-4">SOCIAL MEDIA TEAM</h3>
             <div class="row">
@@ -251,9 +457,31 @@
                 <img src="../img/business-man.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Steff Peeters<small class="text-muted pull-right">MEDIA DIRECTOR</small></h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Steff Peeters<small class="text-muted pull-right">MEDIA DIRECTOR</small><br><small class="text-muted">Student</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#SteffP">More about me</button>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="SteffP" tabindex="-1" role="dialog" aria-labelledby="SteffPTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="SteffPLongTitle">Steff Peeters <br><small class="text-muted">Student</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-man.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:steff.peeters@tedxkuleuven.com">Email me!</a>
+                </div>
               </div>
             </div>
           </div>
@@ -264,22 +492,69 @@
                 <img src="../img/business-man.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Ali Shirazi <small class="text-muted pull-right">PARTNERSHIP DIRECTOR</small></h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Ali Shirazi <small class="text-muted pull-right">PARTNERSHIP DIRECTOR</small><br><small class="text-muted">Student</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#AliS">More about me</button>
               </div>
             </div>
             <div class="row mt-2">
               <div class="col-3">
-                <img src="../img/business-woman.png" style="width:10vh; border-radius: 50%;">
+                <img src="../img/business-man.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Georges Thienpont <small class="text-muted pull-right">TREASURER</small></h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Georges Thienpont <small class="text-muted pull-right">TREASURER</small><br><small class="text-muted">Student</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#GeorgeT">More about me</button>
               </div>
             </div>
           </div>
+
+          <div class="modal fade" id="AliS" tabindex="-1" role="dialog" aria-labelledby="AliSTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="AliSLongTitle">Ali Shirazi<br><small class="text-muted">Student</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-man.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:ali.shirazi@tedxkuleuven.com">Email me!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="GeorgeT" tabindex="-1" role="dialog" aria-labelledby="GeorgeTTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="GeorgeTLongTitle">Georges Thienpont<br><small class="text-muted">Student</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-man.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:george.thienpont@tedxkuleuven.com">Email me!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div id="operations" class="container tab-pane fade"><br>
             <h3 class="mb-4">OPERATIONS TEAM</h3>
             <div class="row">
@@ -287,9 +562,8 @@
                 <img src="../img/business-man.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Arnaud Verhoeven<small class="text-muted pull-right">OPERATIONS DIRECTOR</small></h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Arnaud Verhoeven<small class="text-muted pull-right">OPERATIONS DIRECTOR</small><br><small class="text-muted">Student</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#ArnaudV">More about me</button>
               </div>
             </div>
             <div class="row mt-2">
@@ -297,12 +571,60 @@
                 <img src="../img/business-woman.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Margot Quix <small class="text-muted pull-right">OPERATIONS COORDINATOR</small></h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Margot Quix <small class="text-muted pull-right">OPERATIONS COORDINATOR</small><br><small class="text-muted">Studente</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#MargotQ">More about me</button>
               </div>
             </div>
           </div>
+
+          <div class="modal fade" id="ArnaudV" tabindex="-1" role="dialog" aria-labelledby="ArnaudVTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="ArnaudVLongTitle">Arnaud Verhoeven<br><small class="text-muted">Student</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-man.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:arnaud.verhoeven@tedxkuleuven.com">Email me!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal fade" id="MargotQ" tabindex="-1" role="dialog" aria-labelledby="MargotQTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="MargotQLongTitle">Margot Quix<br><small class="text-muted">Studente</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-woman.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:margot.quix@tedxkuleuven.com">Email me!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div id="pr" class="container tab-pane fade"><br>
             <h3 class="mb-4">PR & ENGAGEMENT TEAM</h3>
             <div class="row">
@@ -310,9 +632,8 @@
                 <img src="../img/business-man.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Benoit Vandendriessche <small class="text-muted pull-right">PR & ENGAGEMENT DIRECTOR</small></h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Benoit Vandendriessche <small class="text-muted pull-right">PR & ENGAGEMENT DIRECTOR</small><br><small class="text-muted">Student</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#BenoitV">More about me</button>
               </div>
             </div>
             <hr>
@@ -321,9 +642,8 @@
                 <img src="../img/business-man.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Baptist Devos <small class="text-muted pull-right">PODCAST CONTENT PRODUCER</small></h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Baptist Devos <small class="text-muted pull-right">PODCAST CONTENT PRODUCER</small><br><small class="text-muted">Student</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#BaptistD">More about me</button>
               </div>
             </div>
             <div class="row mt-2">
@@ -331,9 +651,8 @@
                 <img src="../img/business-man.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Julius Schelstraete <small class="text-muted pull-right">PODCAST HOST</small></h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Julius Schelstraete <small class="text-muted pull-right">PODCAST HOST</small><br><small class="text-muted">Student</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#juliusS">More about me</button>
               </div>
             </div>
             <div class="row mt-2">
@@ -341,9 +660,54 @@
                 <img src="../img/business-man.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Miklas Decock <small class="text-muted pull-right">PODCAST HOST</small></h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Miklas Decock <small class="text-muted pull-right">PODCAST HOST</small><br><small class="text-muted">Student</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#MiklasD">More about me</button>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="BenoitV" tabindex="-1" role="dialog" aria-labelledby="BenoitVTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="BenoitVLongTitle">Benoit Vandendriessche <br><small class="text-muted">Student</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-man.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:benoit.vandendriessche@tedxkuleuven.com">Email me!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="BaptistD" tabindex="-1" role="dialog" aria-labelledby="BaptistDTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="BaptistDLongTitle">Baptist Devos<br><small class="text-muted">Student</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-man.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:kevin.peeters@tedxkuleuven.com">Email me!</a>
+                </div>
               </div>
             </div>
           </div>
@@ -354,9 +718,8 @@
                 <img src="../img/business-man.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Maarten Van Malcot <small class="text-muted pull-right">VIDEO & PRODUCTION LEAD</small></h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Maarten Van Malcot <small class="text-muted pull-right">VIDEO & PRODUCTION LEAD</small><br><small class="text-muted">Student</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#MaartenV">More about me</button>
               </div>
             </div>
             <div class="row mt-2">
@@ -364,9 +727,54 @@
                 <img src="../img/business-man.png" style="width:10vh; border-radius: 50%;">
               </div>
               <div class="col-9">
-                <h5>Kevin Peeters <small class="text-muted pull-right">AUDIO CONTROL</small></h5>
-                <p>Get to know more about me soon!
-                </p>
+                <h5>Kevin Peeters <small class="text-muted pull-right">AUDIO CONTROL</small><br><small class="text-muted">Student</small></h5>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#KevinP">More about me</button>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="MaartenV" tabindex="-1" role="dialog" aria-labelledby="MaartenVTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="MaartenVLongTitle">Maarten Van Malcot <br><small class="text-muted">Student</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-man.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:maarten.vanmalcot@tedxkuleuven.com">Email me!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal fade" id="KevinP" tabindex="-1" role="dialog" aria-labelledby="KevinPTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="KevinPLongTitle">Kevin Peeters<br><small class="text-muted">Student</small></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-5">
+                  <img src="../img/business-man.png" alt="Picture" style="max-width: 25vh;">
+                </div>
+                <div class="col-5">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                </div> </div></div>
+                <div class="modal-footer">
+                  <a class="btn btn-primary" href="mailto:kevin.peeters@tedxkuleuven.com">Email me!</a>
+                </div>
               </div>
             </div>
           </div>
