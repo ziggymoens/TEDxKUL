@@ -7,11 +7,11 @@ body {
     height: 800px;
 }
 
-.carousel{
+#teamCarousel{
     max-height: 50vh;
 }
 
-.carousel img{
+#teamCarousel img{
     object-fit: none;
     object-position: center;
     max-height: 50vh;
