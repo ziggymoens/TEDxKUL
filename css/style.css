@@ -133,7 +133,8 @@ body {
 }
 
 .footerTEDx{
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    padding-bottom: 1em;
 }
 
 .required:after {
@@ -144,6 +145,10 @@ body {
 .btn:hover {
     background-color: rgba(255, 0, 0, 0.6);
     color: white;
+}
+
+#embed{
+    padding: 5em;
 }
 
 
@@ -199,10 +204,14 @@ body {
     opacity: 0.9;
 }
 
-#embed{
-    padding: 3em;
+
+.mail{
+    color: red;
 }
 
+.footerTEDx{
+
+}
 /*----------multi-level-accordian-menu------------*/
 .navbar-logo{
 	padding: 15px;
@@ -349,10 +358,5 @@ body {
 	.hori-selector .right:before{
 		bottom: -25px;
 		left: -25px;
-    }
-    
-    #embedded{
-        width: 800px;
-        height: 400px;
     }
 }
