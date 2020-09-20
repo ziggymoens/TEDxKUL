@@ -161,6 +161,11 @@ body {
     padding: 5em;
 }
 
+#submitButton{
+    width: 150px;
+    margin: auto;
+}
+
 
 .navbar-toggler span {
     display: block;
@@ -219,9 +224,6 @@ body {
     color: red;
 }
 
-.footerTEDx{
-
-}
 /*----------multi-level-accordian-menu------------*/
 .navbar-logo{
 	padding: 15px;
