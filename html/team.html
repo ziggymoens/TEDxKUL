@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>TEDxKUL</title>
+  <title>TEDxKULeuven - team</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1,
@@ -37,7 +37,7 @@
     <div class="collapse navbar-collapse" id="collapsingNavbar">
       <div class="navbar-nav navbar-expand-lg">
         <a class="nav-item nav-link text-white" href="../index.html">Home</a>
-        <a class="nav-item nav-link text-white" href="../html/ideas.html">Any Ideas</a>
+        <a class="nav-item nav-link text-white" href="../html/ideas.html">Any Ideas?</a>
         <a class="nav-item nav-link text-white" href="../html/events.html">Events </a>
         <a class="nav-item nav-link active text-white" href="../html/team.html">Join the team!<span
             class="sr-only">(current)</span></a>
@@ -346,279 +346,303 @@
   </div>
 
   <!--section sign up for team-->
-  <div class="mt-md-4">
-    <div class="container">
-      <h3 class="h3 pb-2">Apply now!</h3>
-      <form id="form" class="needs-validation" action="../php/applyForTeam.php" method="POST"
-        onsubmit="return validate()" novalidate>
-        <div class="form-group row">
-          <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="fname">First name</label>
-          <div class="col-lg-10 col-md-9 col-sm-8">
-            <input type="text" name="fname" class="form-control" placeholder="First name" id="fname" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-            <div class="invalid-feedback">
-              Please fill in your first name.
-            </div>
-          </div>
-        </div>
+  <!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <div class="form-group row">
-          <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="lname">Last name</label>
-          <div class="col-lg-10 col-md-9 col-sm-8">
-            <input type="text" name="lname" class="form-control" placeholder="Last name" id="lname" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-            <div class="invalid-feedback">
-              Please fill in your last name.
-            </div>
-          </div>
-        </div>
-
-        <div class="form-group row">
-          <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="emailInput">Email
-            address</label>
-          <div class="col-lg-10 col-md-9 col-sm-8">
-            <input type="email" name="mail" class="form-control" id="emailInput" aria-describedby="emailHelp"
-              placeholder="Enter email" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-            <div class="invalid-feedback">
-              Please fill in your email address.
-            </div>
-            <small id="emailHelp" class="form-text text-muted">We'll never
-              share your email with anyone else.</small>
-          </div>
-        </div>
-
-        <div class="form-group row">
-          <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="university">University</label>
-          <div class="col-lg-10 col-md-9 col-sm-8">
-            <input type="text" name="university" class="form-control" placeholder="University" id="university" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-            <div class="invalid-feedback">
-              Please fill in your university.
-            </div>
-          </div>
-        </div>
-
-        <div class="form-group row">
-          <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="faculty">Faculty</label>
-          <div class="col-lg-10 col-md-9 col-sm-8">
-            <input type="text" name="faculty" class="form-control" placeholder="Faculty" id="faculty" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-            <div class="invalid-feedback">
-              Please fill in your faculty.
-            </div>
-          </div>
-        </div>
-
-        <div class="form-group row">
-          <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="study">Field of study</label>
-          <div class="col-lg-10 col-md-9 col-sm-8">
-            <input type="text" name="study" class="form-control" placeholder="Field of study" id="study" required>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-            <div class="invalid-feedback">
-              Please fill in your field of study.
-            </div>
-          </div>
-        </div>
-
-        <div class="form-group row">
-          <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="studyPhase">Study phase</label>
-          <div class="col-lg-10 col-md-9 col-sm-8">
-            <select type="text" name="studyPhase" class="form-control" placeholder="Study Phase" id="studyPhase"
-              required>
-              <option value="" disabled selected>Please fill in your Study phase.</option>
-              <optgroup label="Bachelor">
-                <option value="1e bachelor">1st Bachelor</option>
-                <option value="2e bachelor">2nd Bachelor</option>
-                <option value="3e bachelor">3rd Bachelor</option>
-              </optgroup>
-              <optgroup label="Master">
-                <option value="1e master">1st Master</option>
-                <option value="2e master">2nd Master</option>
-                <option value="2e master">3th Master</option>
-              </optgroup>
-              <option value="doctoraat">Doctorate</option>
-            </select>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-            <div class="invalid-feedback">
-              Please fill in your Study phase.
-            </div>
-          </div>
-        </div>
-
-        <div class="form-group row">
-          <label class="col-lg-5 col-md-6 col-sm-8 col-form-label required" for="attendee">Have you ever attended a TEDx
-            event?</label>
-          <div class="col-lg-7 col-md-6 col-sm-4">
-            <select type="text" name="attendee" class="form-control" placeholder="Attendee" id="attendee" required>
-              <option value="" disabled selected>Your answer</option>
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-            <div class="invalid-feedback">
-              Please fill in your answer.
-            </div>
-          </div>
-        </div>
-
-        <div class="form-group row">
-          <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="favTalks">Favourite TEDx
-            talk(s)?</label>
-          <div class="col-lg-10 col-md-9 col-sm-8">
-            <textarea type="text" name="favTalks" class="form-control" placeholder="Favourite TEDx talk(s)" rows="3"
-              id="favTalks" required maxlength="1500"></textarea>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-            <div class="invalid-feedback">
-              Please fill in your Favourite TEDx talk(s).
-            </div>
-          </div>
-        </div>
-
-
-        <div class="form-group row">
-          <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="preference">Top 3 function
-            preference</label>
-          <div class="col-lg-10 col-md-9 col-sm-8">
-            <div class="row">
-              <div class="col">
-                <input type="checkbox" class="check" name="pref-curator" id="pref-curator">
-                <label class="layout" for="pref-curator">Curator & Licensee</label>
-              </div>
-              <div class="col">
-                <input type="checkbox" class="check" name="pref-executive" id="pref-executive">
-                <label class="layout" for="pref-executive">Executive Director</label>
-              </div>
-              <div class="col">
-                <input type="checkbox" class="check" name="pref-speaker" id="pref-speaker">
-                <label class="layout" for="pref-speaker">Speaker Team</label>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+       <!--section sign up for team-->
+       <div class="mt-md-4">
+        <div class="container">
+          <h3 class="h3 pb-2">Apply now!</h3>
+          <form id="form" class="needs-validation" action="teamapp.php" method="POST"
+            onsubmit="return validate()" novalidate>
+            <div class="form-group row">
+              <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="fname">First name</label>
+              <div class="col-lg-10 col-md-9 col-sm-8">
+                <input type="text" name="fname" class="form-control" placeholder="First name" id="fname" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                <div class="invalid-feedback">
+                  Please fill in your first name.
+                </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col">
-                <input type="checkbox" class="check" name="pref-creative" id="pref-creative">
-                <label class="layout" for="pref-creative">Creative Team</label>
-              </div>
-              <div class="col">
-                <input type="checkbox" class="check" name="pref-social" id="pref-social">
-                <label class="layout" for="pref-social">Social Media Team</label>
-              </div>
-              <div class="col">
-                <input type="checkbox" class="check" name="pref-partnership" id="pref-partnership">
-                <label class="layout" for="pref-partnership">Partnership Team</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <input type="checkbox" class="check" name="pref-operations" id="pref-operations">
-                <label class="layout" for="pref-operations">Operations Team</label>
-              </div>
-              <div class="col">
-                <input type="checkbox" class="check" name="pref-pr" id="pref-pr">
-                <label class="layout" for="pref-pr">PR & Engagement</label>
-              </div>
-              <div class="col">
-                <input type="checkbox" class="check" name="pref-tech" id="pref-tech">
-                <label class="layout" for="pref-tech">Tech Team</label>
+    
+            <div class="form-group row">
+              <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="lname">Last name</label>
+              <div class="col-lg-10 col-md-9 col-sm-8">
+                <input type="text" name="lname" class="form-control" placeholder="Last name" id="lname" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                <div class="invalid-feedback">
+                  Please fill in your last name.
+                </div>
               </div>
             </div>
-            <div class="valid-feedback">
-              Looks good!
+    
+            <div class="form-group row">
+              <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="emailInput">Email
+                address</label>
+              <div class="col-lg-10 col-md-9 col-sm-8">
+                <input type="email" name="mail" class="form-control" id="emailInput" aria-describedby="emailHelp"
+                  placeholder="Enter email" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                <div class="invalid-feedback">
+                  Please fill in your email address.
+                </div>
+                <small id="emailHelp" class="form-text text-muted">We'll never
+                  share your email with anyone else.</small>
+              </div>
             </div>
-            <div class="invalid-feedback">
-              Please fill in your preference.
+    
+            <div class="form-group row">
+              <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="university">University</label>
+              <div class="col-lg-10 col-md-9 col-sm-8">
+                <input type="text" name="university" class="form-control" placeholder="University" id="university" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                <div class="invalid-feedback">
+                  Please fill in your university.
+                </div>
+              </div>
             </div>
-          </div>
+    
+            <div class="form-group row">
+              <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="faculty">Faculty</label>
+              <div class="col-lg-10 col-md-9 col-sm-8">
+                <input type="text" name="faculty" class="form-control" placeholder="Faculty" id="faculty" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                <div class="invalid-feedback">
+                  Please fill in your faculty.
+                </div>
+              </div>
+            </div>
+    
+            <div class="form-group row">
+              <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="study">Field of study</label>
+              <div class="col-lg-10 col-md-9 col-sm-8">
+                <input type="text" name="study" class="form-control" placeholder="Field of study" id="study" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                <div class="invalid-feedback">
+                  Please fill in your field of study.
+                </div>
+              </div>
+            </div>
+    
+            <div class="form-group row">
+              <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="studyPhase">Study phase</label>
+              <div class="col-lg-10 col-md-9 col-sm-8">
+                <select type="text" name="phase" class="form-control" placeholder="Study Phase" id="studyPhase"
+                  required>
+                  <option value="" disabled selected>Please fill in your Study phase.</option>
+                  <optgroup label="Bachelor">
+                    <option value="1e bachelor">1st Bachelor</option>
+                    <option value="2e bachelor">2nd Bachelor</option>
+                    <option value="3e bachelor">3rd Bachelor</option>
+                  </optgroup>
+                  <optgroup label="Master">
+                    <option value="1e master">1st Master</option>
+                    <option value="2e master">2nd Master</option>
+                    <option value="3e master">3th Master</option>
+                  </optgroup>
+                  <option value="doctoraat">Doctorate</option>
+                </select>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                <div class="invalid-feedback">
+                  Please fill in your Study phase.
+                </div>
+              </div>
+            </div>
+    
+            <div class="form-group row">
+              <label class="col-lg-5 col-md-6 col-sm-8 col-form-label required" for="attendee">Have you ever attended a TEDx
+                event?</label>
+              <div class="col-lg-7 col-md-6 col-sm-4">
+                <select type="text" name="attendee" class="form-control" placeholder="Attendee" id="attendee" required>
+                  <option value="" disabled selected>Your answer</option>
+                  <option value="ja">Yes</option>
+                  <option value="nee">No</option>
+                </select>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                <div class="invalid-feedback">
+                  Please fill in your answer.
+                </div>
+              </div>
+            </div>
+    
+            <div class="form-group row">
+              <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="favTalks">Favourite TEDx
+                talk(s)?</label>
+              <div class="col-lg-10 col-md-9 col-sm-8">
+                <textarea type="text" name="favtalks" class="form-control" placeholder="Favourite TEDx talk(s)" rows="3"
+                  id="favTalks" required maxlength="1500"></textarea>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                <div class="invalid-feedback">
+                  Please fill in your Favourite TEDx talk(s).
+                </div>
+              </div>
+            </div>
+    
+    
+            <div class="form-group row">
+              <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="preference">Top 3 function
+                preference</label>
+              <div class="col-lg-10 col-md-9 col-sm-8">
+                <div class="row">
+                  <div class="col">
+                    <input type="checkbox" class="check" value="Curator & Licensee" name="pref[]" id="pref-curator">
+                    <label class="layout" for="pref-curator">Curator & Licensee</label>
+                  </div>
+                  <div class="col">
+                    <input type="checkbox" class="check" value="Executive Director" name="pref[]" id="pref-executive">
+                    <label class="layout" for="pref-executive">Executive Director</label>
+                  </div>
+                  <div class="col">
+                    <input type="checkbox" class="check" value="Speaker Team" name="pref[]" id="pref-speaker">
+                    <label class="layout" for="pref-speaker">Speaker Team</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <input type="checkbox" class="check" value="Creative Team" name="pref[]" id="pref-creative">
+                    <label class="layout" for="pref-creative">Creative Team</label>
+                  </div>
+                  <div class="col">
+                    <input type="checkbox" class="check" value="Social Media Team" name="pref[]" id="pref-social">
+                    <label class="layout" for="pref-social">Social Media Team</label>
+                  </div>
+                  <div class="col">
+                    <input type="checkbox" class="check" value="Partnership Team" name="pref[]" id="pref-partnership">
+                    <label class="layout" for="pref-partnership">Partnership Team</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <input type="checkbox" class="check" value="Operations Team" name="pref[]" id="pref-operations">
+                    <label class="layout" for="pref-operations">Operations Team</label>
+                  </div>
+                  <div class="col">
+                    <input type="checkbox" class="check" value="PR & Engagement" name="pref[]" id="pref-pr">
+                    <label class="layout" for="pref-pr">PR & Engagement</label>
+                  </div>
+                  <div class="col">
+                    <input type="checkbox" class="check" value="Tech Team" name="pref[]" id="pref-tech">
+                    <label class="layout" for="pref-tech">Tech Team</label>
+                  </div>
+                </div>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                <div class="invalid-feedback">
+                  Please fill in your preference.
+                </div>
+              </div>
+            </div>
+    
+            <div class="form-group row">
+              <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="motivational">Why TEDxKULeuven?</label>
+              <div class="col-lg-10 col-md-9 col-sm-8">
+                <textarea type="text" name="motivational" class="form-control"
+                  placeholder="Your motivation (max. 450 words)" rows="3" id="motivational" required
+                  maxlength="1500"></textarea>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                <div class="invalid-feedback">
+                  Please fill in your motivation.
+                </div>
+              </div>
+            </div>
+    
+            <!-- <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Upload your CV / portfolio</span>
+              </div>
+              <div class="custom-file">
+                <input type="file" name="resume" class="custom-file-input" id="resume" required>
+                <label class="custom-file-label" for="resume">Choose file</label>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+                <div class="invalid-feedback">
+                  Please upload your CV / portfolio.
+                </div>
+              </div>
+            </div> -->
+    
+            <button class="btn btn-primary w-100" name="submit" type="submit">Submit!</button>
+    
+          </form>
         </div>
-
-        <div class="form-group row">
-          <label class="col-lg-2 col-md-3 col-sm-4 col-form-label required" for="motivational">Why TEDxKULeuven?</label>
-          <div class="col-lg-10 col-md-9 col-sm-8">
-            <textarea type="text" name="motivational" class="form-control"
-              placeholder="Your motivation (max. 450 words)" rows="3" id="motivational" required
-              maxlength="1500"></textarea>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-            <div class="invalid-feedback">
-              Please fill in your motivation.
-            </div>
-          </div>
-        </div>
-
-        <div class="input-group mb-3">
-          <div class="input-group-prepend">
-            <span class="input-group-text">Upload your CV / portfolio</span>
-          </div>
-          <div class="custom-file">
-            <input type="file" class="custom-file-input" id="resume" required>
-            <label class="custom-file-label" for="resume">Choose file</label>
-            <div class="valid-feedback">
-              Looks good!
-            </div>
-            <div class="invalid-feedback">
-              Please upload your CV / portfolio.
-            </div>
-          </div>
-        </div>
-
-        <button class="btn btn-primary w-100" type="submit">Submit!</button>
-
-      </form>
-    </div>
-  </div>
-  <!--end of section sign up for team-->
-  <script>
-    $(document).ready(function () {
-      $(".nav-pills a").click(function () {
-        $(this).tab('show');
-      });
-    });
-  </script>
-
-  <script>
-    (function () {
-      'use strict';
-      window.addEventListener('load', function () {
-        var forms = document.getElementsByClassName('needs-validation');
-        var validation = Array.prototype.filter.call(forms, function (form) {
-          form.addEventListener('submit', function (event) {
-            if (form.checkValidity() === false) {
-              event.preventDefault();
-              event.stopPropagation();
-            }
-            form.classList.add('was-validated');
-          }, false);
+      </div>
+      <!--end of section sign up for team-->
+      <script>
+        $(document).ready(function () {
+          $(".nav-pills a").click(function () {
+            $(this).tab('show');
+          });
         });
-      }, false);
-    })();
-  </script>
-
-
-  <script>
-    $("input:checkbox").click(function () {
-      var bol = $("input:checkbox:checked").length >= 3;
-      $("input:checkbox").not(":checked").attr("disabled", bol);
-    });
-  </script>
+      </script>
+    
+      <script>
+        (function () {
+          'use strict';
+          window.addEventListener('load', function () {
+            var forms = document.getElementsByClassName('needs-validation');
+            var validation = Array.prototype.filter.call(forms, function (form) {
+              form.addEventListener('submit', function (event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+      </script>
+    
+    
+      <script>
+        $("input:checkbox").click(function () {
+          var bol = $("input:checkbox:checked").length >= 3;
+          $("input:checkbox").not(":checked").attr("disabled", bol);
+        });
+      </script>
+    
+    
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
 
 
   <!-- Optional JavaScript -->

@@ -1,5 +1,5 @@
 body {
-    background-color: #f9f9f9;
+    background-color:white;
 }
 
 #imageCarousel {
@@ -47,15 +47,59 @@ body {
     color:#2867B2;
 }
 
+#instagram {
+    opacity: 75%;
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.containerLogos .fa{
+    margin-right: 1em;
+}
+
+.img-logo{
+    height: 50px;    
+    margin: 1.5em;
+}
+
+.logoContainer{
+    padding-top: 2em;
+}
+
+.bottom-logoContainer{
+    padding-top: 3em;
+}
+
+#cardsPodcast .card-img-top{
+    display: flex;
+    align-self: center;
+    /* border-radius: 50%; */
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#cardsPodcast img{
+    filter: grayscale(100);
+    display: block;
+    max-height: 175px;
+    max-width: 175px;
+    width: auto;
+    height: auto;
+}
+
+#cardsPodcast .card{
+    background: none;
+}
+
 
 #arrowToTeam {
     color: gray;
     font-size: 50px;
 }
 
-#AboutShort {
-    /* margin-left: 2.5em; */
-}
 
 #AboutShort hr {
     background-color: red;
@@ -85,6 +129,10 @@ body {
 
 #btnCarousel {
     border-radius: 100%;
+}
+
+.footerTEDx{
+    background-color: whitesmoke
 }
 
 .required:after {
