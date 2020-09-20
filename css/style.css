@@ -133,7 +133,8 @@ body {
 }
 
 .footerTEDx{
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    padding-bottom: 1em;
 }
 
 .required:after {
@@ -144,6 +145,10 @@ body {
 .btn:hover {
     background-color: rgba(255, 0, 0, 0.6);
     color: white;
+}
+
+#embed{
+    padding: 5em;
 }
 
 
@@ -199,15 +204,14 @@ body {
     opacity: 0.9;
 }
 
-#embed{
-    display: block;
-    padding-top: 5em;
-    width: 75%;
-    max-height: 200px;
-    margin: auto;
-    padding-bottom: 5em;
+
+.mail{
+    color: red;
 }
 
+.footerTEDx{
+
+}
 /*----------multi-level-accordian-menu------------*/
 .navbar-logo{
 	padding: 15px;
