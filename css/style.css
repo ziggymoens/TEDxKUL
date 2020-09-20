@@ -120,20 +120,22 @@ body {
 }
 
 #homecarousel-1 {
-    height: 50vh;
-    background-image: url("../img/x-traTime.jpg");
+    height: 65vh;
+    background-image: url("../img/x-traTime-banner.png");
     background-size: cover;
+    background-position: center;
 }
 
 #homecarousel-2 {
-    height: 50vh;
+    height: 65vh;
     background-image: url("../img/tedxkulteam.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 #homecarousel-3 {
-    height: 50vh;
-    background-image: url("../img/DSC_0422.jpg");
+    height: 65vh;
+    background-image: url("../img/Attend1.jpg");
 	background-size: cover;
 	background-position: center;
 }
