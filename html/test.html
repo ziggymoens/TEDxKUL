@@ -16,7 +16,7 @@
 
     <!-- Custom styles for this template -->
     <!--<link rel="stylesheet" href="../css/style.css">-->
-    <link rel="stylesheet" href="../css/test.css">
+    <link rel="stylesheet" href="../css/style.css">
 
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v8.0"
@@ -24,41 +24,53 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-mainbg">
-        <a class="navbar-brand navbar-logo text-white" href="#">
-            TEDxKUL</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars text-white"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-lightbulb"></i>Any ideas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Events</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="fas fa-user-friends"></i>Join the team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="fas fa-briefcase"></i>Become a partner</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);"><i class="fas fa-phone"></i>Contact us</a>
-                </li>
-            </ul>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-mainbg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            </a>
+            <button class="navbar-toggler collapsed position-relative" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span> </span>
+                <span> </span>
+                <span> </span>
+            </button>
+            <div class="container-fluid pr-0">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <div class="hori-selector">
+                            <div class="left"></div>
+                            <div class="right"></div>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link " href="javascript:void(0);"><i class="fas fa-home"></i>Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="javascript:void(0);"><i class="far fa-lightbulb"></i>Any ideas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);"><i class="fas fa-user-friends"></i>Join the
+                                team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);"><i class="fas fa-briefcase"></i>Become a
+                                partner</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0);"><i class="fas fa-phone"></i>Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </nav>
-      
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script id="INLINE_PEN_JS_ID">
-        // ---------Responsive-navbar-active-animation-----------
+
         function test() {
             var tabsNewAnim = $('#navbarSupportedContent');
             var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
@@ -99,7 +111,7 @@
         $(".navbar-toggler").click(function () {
             setTimeout(function () { test(); });
         });
-        //# sourceURL=pen.js
+
     </script>
 
 
