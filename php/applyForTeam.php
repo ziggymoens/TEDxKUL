@@ -31,5 +31,5 @@ if (isset($_POST['submit'])) {
     "Motivatie: " . $motivational . "\n";      
 
     mail($mailTo, $subject, $txt, $headers);
-    header("Location: team.html?mailsent");
+    header("Location: ./html/team.html?mailsent");
 }

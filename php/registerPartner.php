@@ -16,6 +16,6 @@ if(isset($_POST['submit'])){
     .\n Bedrijf: ".$companyName."\n\nBericht: $message";
 
     mail($mailTo, $subject, $txt, $headers);
-    header("Location: index.html?mailsent");
+    header("Location: ./../html/partner.html?mailsent");
 }
 ?>
