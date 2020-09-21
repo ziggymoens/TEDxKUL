@@ -27,7 +27,6 @@ body {
 .carousel-indicators .active {
     background-color: red;
     opacity: 100%;
-
 }
 
 #logoNavbar {
@@ -68,6 +67,7 @@ body {
 }
 
 .containerLogos .fa{
+    padding-top: -1em;
     margin-right: 1em;
 }
 
@@ -77,11 +77,7 @@ body {
 }
 
 .logoContainer{
-    padding-top: 2em;
-}
-
-.bottom-logoContainer{
-    padding-top: 3em;
+    padding-top: em;
 }
 
 #cardsPodcast .card-img-top{
@@ -126,11 +122,18 @@ body {
     background-position: center;
 }
 
+.float-vertical{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+}
+
 #homecarousel-2 {
     height: 65vh;
     background-image: url("../img/tedxkulteam.jpg");
+    background-position-y: 5%;
     background-size: cover;
-    background-position: center;
 }
 
 #homecarousel-3 {
@@ -166,6 +169,10 @@ body {
 #submitButton{
     width: 150px;
     margin: auto;
+}
+
+.footer-distributed{
+    padding:5em;
 }
 
 
@@ -231,6 +238,12 @@ body {
 	padding: 15px;
 	color: #fff;
 }
+
+.navbar-logo img{
+    min-width: 175px;
+    height: auto;
+}
+
 .navbar-mainbg{
 	background-color: rgb(52, 58, 64);
 	padding: 0px;
@@ -531,6 +544,12 @@ body {
 
 @media (max-width: 880px) {
 
+    #homecarousel-2 {
+        height: 65vh;
+        background-image: url("../img/tedxkulteam.jpg");
+        background-position:center;
+        background-size: cover;
+    }
 	.footer-distributed{
 		font: bold 14px sans-serif;
 	}

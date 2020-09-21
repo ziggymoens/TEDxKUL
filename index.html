@@ -64,26 +64,26 @@
     </nav>
 
 
+    <!--Carousel-->
   <div id="carouselHomePage" class="carousel slide startPage" data-ride="carousel">
     <ol class="carousel-indicators">
-      <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselIndicators" data-slide-to="0"></li>
+      <li data-target="#carouselIndicators" data-slide-to="1" class="active"></li>
       <li data-target="#carouselIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-      <div class="carousel-item active">
+      <div class="carousel-item">
         <div class="jumbotron jumbotron-fluid" id="homecarousel-1">
-          <div class="container d-flex justify-content-end align-content-center">
-            <a class="btn btn-light btn-lg pull-right align-self-center" id="btnCarousel" href="html/xtraTime.html"
-              role="button">&#8592;</a>
+          <div class="container">
+            <a class="btn btn-light btn-lg float-vertical" id="btnCarousel" href="html/xtraTime.html"
+              role="button">&#8594;</a>
           </div>
         </div>
       </div>
-      <div class="carousel-item">
+      <div class="carousel-item active">
         <div class="jumbotron jumbotron-fluid" id="homecarousel-2">
           <div class="container">
-            <h1 class="display-4 text-white text-center text-danger">We Are TEDx<br>We Are KUL</h1>
-            <a class="btn btn-light btn-lg pull-right js-scroll-trigger" id="btnCarousel" href="#AboutShort"
+            <a class="btn btn-light btn-lg float-vertical js-scroll-trigger" id="btnCarousel" href="#AboutShort"
               role="button">&#8595;</a>
           </div>
         </div>
@@ -91,9 +91,7 @@
       <div class="carousel-item">
         <div class="jumbotron jumbotron-fluid" id="homecarousel-3">
           <div class="container">
-            <h1 class="display-4 text-white text-center">2019</h1>
-            <p class="lead text-white">The Power of<br>Un(Truth)</p>
-            <a class="btn btn-light btn-lg pull-right" id="btnCarousel" href="html/events/powerOfUntruth.html"
+            <a class="btn btn-light btn-lg float-vertical" id="btnCarousel" href="html/events/powerOfUntruth.html"
               role="button">&#8594;</a>
           </div>
         </div>
@@ -104,9 +102,9 @@
       <li data-target="#carouselHomePage" data-slide-to="1"></li>
       <li data-target="#carouselHomePage" data-slide-to="2"></li>
     </ol>
-
-
   </div>
+  <!--End of carousel-->
+
   <div class="container pb-5" id="AboutShort">
     <div class="row">
       <div class="col-12">
@@ -225,13 +223,14 @@
             setTimeout(function () { test(); });
         });
         $(window).on('resize', function () {
-            setTimeout(function () { test(); }, 500);
+            setTimeout(function () { test(); }, 15468486500);
         });
         $(".navbar-toggler").click(function () {
             setTimeout(function () { test(); });
         });
-
     </script>
+    <script language="JavaScript" type="text/javascript" src="scripts/jquery.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/bootstrap.min.js"></script>
 </body>
 
 <footer class="footer-distributed">
